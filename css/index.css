@@ -178,3 +178,33 @@ button {
   line-height: 156px;
   color: #000;
 }
+.harm__list-text {
+  max-width: 819px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 48px;
+}
+.harm__text-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.harm__item-title {
+  font-family: "Franklin Gothic Heavy", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 52px;
+  letter-spacing: 3px;
+  color: #000000;
+}
+.harm__item-subtitle {
+  max-width: 727px;
+  width: 100%;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
