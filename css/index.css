@@ -78,3 +78,57 @@ button {
 .promo__image {
   margin-top: 103px;
 }
+.harm {
+  width: 100%;
+}
+.harm__wrapper {
+  padding-top: 71px;
+  padding-bottom: 65px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.harm__top {
+  display: flex;
+  gap: 36px;
+}
+.harm__images {
+  width: 309px;
+  height: 705px;
+  background: #487fc1;
+  margin-left: 115px;
+  margin-top: 12px;
+  position: relative;
+}
+.harm__img {
+  width: 298px;
+  height: 227px;
+  position: absolute;
+  top: 248px;
+  left: -96px;
+}
+.harm__icon {
+  width: 152px;
+  height: 152px;
+  position: absolute;
+  top: 132px;
+  right: 31px;
+}
+.harm__text {
+  max-width: 559px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.harm__text-title {
+  max-width: 431px;
+  width: 100%;
+  font-family: "Franklin Gothic Heavy", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 51px;
+  color: #000000;
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
