@@ -267,7 +267,7 @@ button {
   text-align: center;
   margin-left: 28px;
 }
-.actions-text-top {
+.actions-text-one {
   margin-top: 41px;
   position: relative;
 }
@@ -279,4 +279,59 @@ button {
   color: #487fc180;
   position: absolute;
   top: -26px;
+}
+.avoid__actions-bottom {
+  width: 100%;
+  display: flex;
+  margin-top: 61px;
+  position: relative;
+}
+.avoid__actions-bottom-img {
+  width: 270px;
+  height: 255px;
+  margin-left: 28px;
+}
+.avoid__actions-two {
+  font-family: "Bakbak One", sans-serif;
+  font-weight: 400;
+  font-size: 250px;
+  line-height: 26px;
+  color: #487fc180;
+  position: absolute;
+  top: -144px;
+  left: 234px;
+}
+.avoid__actions-three {
+  font-family: "Bakbak One", sans-serif;
+  font-weight: 400;
+  font-size: 250px;
+  line-height: 26px;
+  color: #487fc180;
+  margin-left: 272px;
+  margin-top: 47px;
+}
+.avoid__actions-four {
+  font-family: "Bakbak One", sans-serif;
+  font-weight: 400;
+  font-size: 250px;
+  line-height: 26px;
+  color: #487fc180;
+  position: absolute;
+  right: 57px;
+  bottom: -9px;
+}
+.actions-text-two {
+  position: absolute;
+  top: -168px;
+  left: -18px;
+}
+.actions-text-three {
+  position: absolute;
+  top: -131px;
+  right: -59px;
+}
+.actions-text-four {
+  position: absolute;
+  right: 20px;
+  bottom: -43px;
 }
