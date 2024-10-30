@@ -1,4 +1,10 @@
 @import url("https://fonts.cdnfonts.com/css/arial-2");
+@font-face {
+  font-family: "Franklin Gothic Heavy";
+  src: url("../fonts/ofont.ru_Franklin\ Gothic\ Heavy.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
@@ -40,10 +46,31 @@ button {
   -moz-text-size-adjust: 100%;
 }
 .container {
-  max-width: 1366px;
+  max-width: 1147px;
   width: 100%;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 38px;
+  padding-right: 38px;
   box-sizing: border-box;
   margin: 0 auto;
+}
+.promo {
+  width: 100%;
+  background: #edf7fa;
+}
+.promo__wrapper {
+  padding-top: 84px;
+  padding-bottom: 112px;
+  box-sizing: border-box;
+  display: flex;
+}
+.promo__title {
+  font-family: "Franklin Gothic Heavy", sans-serif;
+  font-weight: 400;
+  font-size: 84px;
+  line-height: 136px;
+  letter-spacing: 0.3rem;
+  color: #000000;
+}
+.promo__title span {
+  text-align: end;
 }
