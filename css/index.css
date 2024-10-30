@@ -135,10 +135,10 @@ button {
   letter-spacing: 0.2rem;
 }
 .harm__text-subtitle {
+  font-family: "Arial", sans-serif;
   font-weight: 400;
   font-size: 26px;
   line-height: 49px;
-  letter-spacing: 0.3rem;
   color: #000000;
   text-align: center;
   letter-spacing: 0.2rem;
@@ -222,6 +222,27 @@ button {
   font-weight: 400;
   font-size: 48px;
   line-height: 26px;
-
   color: #000000;
+}
+.avoid__top {
+  display: flex;
+  margin-top: 116px;
+}
+.avoid__top-image {
+  width: 292px;
+  height: 244px;
+  margin-left: 89px;
+}
+.avoid__top-desc {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  color: #000000;
+  margin-top: 25px;
+  text-align: center;
+}
+.avoid__actions {
+  display: flex;
+  flex-direction: column;
 }
