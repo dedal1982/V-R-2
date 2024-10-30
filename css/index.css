@@ -1,5 +1,6 @@
 @import url("https://fonts.cdnfonts.com/css/arial-2");
 @import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
 @font-face {
   font-family: "Franklin Gothic Heavy";
   src: url("../fonts/ofont.ru_Franklin\ Gothic\ Heavy.ttf") format("truetype");
@@ -38,13 +39,14 @@ button {
 .page {
   margin: 0 auto;
   padding: 0;
-  font-family: "Arial", sans-serif;
   width: 100%;
+  font-family: "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
+  overflow: hidden;
 }
 .container {
   max-width: 1147px;
@@ -53,6 +55,34 @@ button {
   padding-right: 38px;
   box-sizing: border-box;
   margin: 0 auto;
+}
+.header {
+  width: 100%;
+  position: absolute;
+  top: 24px;
+  display: flex;
+  z-index: 100;
+}
+.header__wrapper {
+  max-width: 1152px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  padding-right: 83px;
+  box-sizing: border-box;
+}
+.header__link {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 19.55px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-left: auto;
+  transition: all 0.2s ease-out;
+}
+.header__link:hover {
+  opacity: 0.5;
 }
 .promo {
   width: 100%;
@@ -362,4 +392,34 @@ button {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.footer {
+  width: 100%;
+  display: flex;
+}
+.footer__inner {
+  display: flex;
+  flex-direction: column;
+  margin: 51px auto 54px;
+}
+.footer__social {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.footer__social-icon img {
+  width: auto;
+  height: auto;
+  transition: all 0.2s ease-out;
+}
+.footer__social-icon img:hover {
+  opacity: 0.5;
+}
+.footer__copyright {
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20.56px;
+  color: #21243d;
+  margin-top: 23px;
 }
