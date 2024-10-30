@@ -179,16 +179,15 @@ button {
   color: #000;
 }
 .harm__list-text {
-  max-width: 819px;
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 48px;
+  margin-top: 53px;
 }
 .harm__text-item {
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 .harm__item-title {
@@ -206,5 +205,23 @@ button {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+  color: #000000;
+}
+.avoid {
+  width: 100%;
+}
+.avoid__wrapper {
+  padding-bottom: 66px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avoid__title {
+  font-family: "Franklin Gothic Heavy", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 26px;
+
   color: #000000;
 }
