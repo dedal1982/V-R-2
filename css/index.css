@@ -132,3 +132,13 @@ button {
   text-align: center;
   letter-spacing: 0.2rem;
 }
+.harm__text-subtitle {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 49px;
+  letter-spacing: 0.3rem;
+  color: #000000;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  margin-top: 25px;
+}
