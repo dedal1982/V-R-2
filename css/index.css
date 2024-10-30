@@ -1,4 +1,5 @@
 @import url("https://fonts.cdnfonts.com/css/arial-2");
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
 @font-face {
   font-family: "Franklin Gothic Heavy";
   src: url("../fonts/ofont.ru_Franklin\ Gothic\ Heavy.ttf") format("truetype");
@@ -157,5 +158,23 @@ button {
   background: #edf7fa;
   margin-top: 107px;
   display: flex;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+.harm__list-item {
+  display: flex;
+}
+.harm__list-number {
+  width: 137px;
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  margin-left: 90px;
+}
+.harm__number {
+  font-family: "Bakbak One", sans-serif;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 156px;
+  color: #000;
 }
