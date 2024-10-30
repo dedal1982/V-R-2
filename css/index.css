@@ -1,3 +1,4 @@
+@import url("https://fonts.cdnfonts.com/css/arial");
 @import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
 @font-face {
@@ -39,7 +40,6 @@ button {
   margin: 0 auto;
   padding: 0;
   width: 100%;
-  font-family: "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
@@ -265,8 +265,9 @@ button {
 .avoid__top-desc {
   font-family: "Arial", sans-serif;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 27px;
   line-height: 40px;
+  letter-spacing: 0.18rem;
   color: #000000;
   margin-top: 25px;
   text-align: center;
